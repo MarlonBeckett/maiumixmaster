@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Claude Design prototype artifacts (kept locally, not deployed)
+Maiumixmaster.dc.html
+Maiumixmaster.html
+support.js
+.thumbnail
+uploads/

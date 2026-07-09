@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maiumixmaster — Dance Music Mixing &amp; Mastering</title>
+<meta name="description" content="Maiumixmaster is a mixing & mastering service built exclusively around commercial dance music — house, tech house, bass and beyond. Loud, clean, release-ready masters.">
+<meta property="og:title" content="Maiumixmaster — Dance Music Mixing & Mastering">
+<meta property="og:description" content="Loud, clean, translatable masters built for the club, the festival stage, and the stream.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: #0a0a0a; color: #f2f2f0; font-family: 'Archivo', sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: #ffffff; }
+  ::selection { background: #f2f2f0; color: #0a0a0a; }
+
+  /* hover states (converted from prototype style-hover attributes) */
+  .btn-book:hover { background: #ffffff; }
+  .social:hover { border-color: rgba(242,242,240,0.9); }
+  .email-link:hover { opacity: 0.7; color: inherit; }
+
+  @media (max-width: 720px) {
+    .hdr { padding: 16px 20px !important; }
+    .hdr .wordmark { display: none !important; }
+    .nav { gap: 16px !important; font-size: 11px !important; letter-spacing: 1.5px !important; }
+    .nav .nav-link-work, .nav .nav-link-about { display: none !important; }
+    .hero-pad { padding: 0 20px 40px !important; }
+    .hero-row { flex-direction: column !important; align-items: flex-start !important; gap: 22px !important; }
+    .sec-pad { padding-left: 20px !important; padding-right: 20px !important; }
+    .about-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
+    .foot-top { flex-direction: column !important; align-items: flex-start !important; }
+    .book-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
+</head>
+<body>
+<div style="position:relative; background:#0a0a0a; min-height:100vh;">
+
+  <!-- HEADER -->
+  <header class="hdr" style="position:fixed; top:0; left:0; right:0; z-index:50; display:flex; align-items:center; justify-content:space-between; padding:18px 40px; background:#0a0a0a; border-bottom:1px solid rgba(242,242,240,0.1);">
+    <a href="#top" style="display:flex; align-items:center; gap:14px;">
+      <span style="display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border:1.5px solid rgba(242,242,240,0.85); font-family:'Oswald',sans-serif; font-weight:700; font-size:19px; letter-spacing:1px;">MMM</span>
+      <span class="wordmark" style="font-family:'Oswald',sans-serif; font-weight:500; font-size:15px; letter-spacing:3.5px; text-transform:uppercase;">Maiumixmaster</span>
+    </a>
+    <nav class="nav" style="display:flex; align-items:center; gap:34px; font-family:'Oswald',sans-serif; font-weight:400; font-size:13px; letter-spacing:2.5px; text-transform:uppercase;">
+      <a href="#top" style="opacity:0.9;">Home</a>
+      <a href="#about" class="nav-link-about" style="opacity:0.9;">About</a>
+      <a href="#book" style="opacity:0.9;">Book</a>
+      <a href="#contact" style="border:1px solid rgba(242,242,240,0.4); padding:9px 20px;">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" style="position:relative; padding-top:82px; display:flex; align-items:flex-end; overflow:hidden;">
+    <img src="assets/studio.jpg" alt="Mastering studio" style="display:block; width:100%; height:auto; object-fit:contain; filter:grayscale(1) contrast(1.05) brightness(0.8);">
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,10,10,0.35) 0%, rgba(10,10,10,0) 45%, rgba(10,10,10,0.8) 100%);"></div>
+    <div class="hero-pad" style="position:absolute; left:0; right:0; bottom:0; z-index:2; width:100%; padding:0 40px 42px;">
+      <p style="font-family:'Oswald',sans-serif; font-weight:400; font-size:12px; letter-spacing:5px; text-transform:uppercase; color:rgba(242,242,240,0.72); margin-bottom:14px;">Dance Music Specialist</p>
+      <h1 style="font-family:'Oswald',sans-serif; font-weight:700; font-size:clamp(38px,6vw,88px); line-height:0.94; letter-spacing:-1px; text-transform:uppercase;">Maiumixmaster</h1>
+      <div class="hero-row" style="display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:22px; margin-top:18px;">
+        <p style="font-family:'Oswald',sans-serif; font-weight:300; font-size:clamp(15px,1.6vw,20px); letter-spacing:3px; text-transform:uppercase; color:rgba(242,242,240,0.9);">Mixing &amp; Mastering</p>
+        <div style="display:flex; align-items:center; gap:14px;">
+          <a href="#book" class="btn-book" style="font-family:'Oswald',sans-serif; font-weight:500; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; background:#f2f2f0; color:#0a0a0a; padding:12px 28px;">Book a Session</a>
+          <a href="https://open.spotify.com/artist/29HusACCuYJmNt2Q9Ice3I" target="_blank" rel="noopener noreferrer" class="social" aria-label="Spotify" style="width:40px; height:40px; display:inline-flex; align-items:center; justify-content:center; border:1px solid rgba(242,242,240,0.35);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.6 14.4a.62.62 0 01-.86.21c-2.35-1.44-5.3-1.76-8.79-.96a.62.62 0 11-.28-1.21c3.82-.87 7.09-.5 9.72 1.1.3.18.39.57.21.86zm1.23-2.74a.78.78 0 01-1.07.26c-2.69-1.65-6.79-2.13-9.97-1.17a.78.78 0 11-.45-1.49c3.63-1.1 8.15-.56 11.23 1.33.37.22.49.7.26 1.07zm.1-2.85C14.81 8.96 9.4 8.79 6.32 9.72a.93.93 0 11-.54-1.79c3.54-1.07 9.51-.87 13.26 1.36a.93.93 0 11-.95 1.6z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/maiu.xi/" target="_blank" rel="noopener noreferrer" class="social" aria-label="Instagram" style="width:40px; height:40px; display:inline-flex; align-items:center; justify-content:center; border:1px solid rgba(242,242,240,0.35);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="sec-pad" style="border-top:1px solid rgba(242,242,240,0.1); padding:clamp(70px,10vw,130px) 40px; max-width:1440px; margin:0 auto; display:grid; grid-template-columns:1fr; gap:48px;">
+    <div class="about-grid" style="display:grid; grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr); gap:clamp(40px,6vw,90px); align-items:start;">
+      <div>
+        <p style="font-family:'Oswald',sans-serif; font-weight:400; font-size:12px; letter-spacing:5px; text-transform:uppercase; color:rgba(242,242,240,0.45); margin-bottom:18px;">About</p>
+        <h2 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:clamp(30px,4vw,52px); line-height:1.02; text-transform:uppercase; letter-spacing:-0.5px;">Made for the dance floor.</h2>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:22px;">
+        <p style="font-size:17px; line-height:1.7; color:rgba(242,242,240,0.82);">Maiumixmaster is a mixing &amp; mastering service built exclusively around commercial dance music — house, tech house, bass and beyond. Every record is treated for the systems it's made for: the club, the festival stage, and the stream.</p>
+        <p style="font-size:17px; line-height:1.7; color:rgba(242,242,240,0.82);">Working from a fully analog-hybrid room, the focus is loud, clean, and translatable masters that keep your low end tight and your top end open — ready for release-day across every platform.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK -->
+  <section id="book" class="sec-pad" style="border-top:1px solid rgba(242,242,240,0.1); padding:clamp(70px,10vw,130px) 40px;">
+    <div class="book-grid" style="max-width:1440px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr 1fr; gap:2px; background:rgba(242,242,240,0.1); border:1px solid rgba(242,242,240,0.1);">
+      <div style="background:#0a0a0a; padding:42px 36px;">
+        <div style="font-family:'Oswald',sans-serif; font-weight:500; font-size:13px; letter-spacing:3px; text-transform:uppercase; color:rgba(242,242,240,0.5);">01</div>
+        <h3 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:26px; text-transform:uppercase; margin:14px 0 12px;">Master</h3>
+        <p style="font-size:15px; line-height:1.65; color:rgba(242,242,240,0.75);">Single-track mastering, loud and release-ready. Two revisions included, delivered in all formats you need.</p>
+      </div>
+      <div style="background:#0a0a0a; padding:42px 36px;">
+        <div style="font-family:'Oswald',sans-serif; font-weight:500; font-size:13px; letter-spacing:3px; text-transform:uppercase; color:rgba(242,242,240,0.5);">02</div>
+        <h3 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:26px; text-transform:uppercase; margin:14px 0 12px;">Mix &amp; Master</h3>
+        <p style="font-size:15px; line-height:1.65; color:rgba(242,242,240,0.75);">Full stem mixdown plus master. The complete treatment for a record that hits on every system.</p>
+      </div>
+      <div style="background:#0a0a0a; padding:42px 36px;">
+        <div style="font-family:'Oswald',sans-serif; font-weight:500; font-size:13px; letter-spacing:3px; text-transform:uppercase; color:rgba(242,242,240,0.5);">03</div>
+        <h3 style="font-family:'Oswald',sans-serif; font-weight:600; font-size:26px; text-transform:uppercase; margin:14px 0 12px;">EP / Album</h3>
+        <p style="font-size:15px; line-height:1.65; color:rgba(242,242,240,0.75);">Multi-track projects with consistent loudness and tone across the full release. Custom quote.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact" class="sec-pad" style="border-top:1px solid rgba(242,242,240,0.1); padding:clamp(64px,9vw,110px) 40px 40px;">
+    <div class="foot-top" style="max-width:1440px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:28px;">
+      <a href="mailto:hello@maiumixmaster.com" class="email-link" style="font-family:'Oswald',sans-serif; font-weight:600; font-size:clamp(24px,4vw,44px); line-height:1; text-transform:lowercase; letter-spacing:-0.5px;">hello@maiumixmaster.com</a>
+      <div style="display:flex; gap:14px;">
+        <a href="https://open.spotify.com/artist/29HusACCuYJmNt2Q9Ice3I" target="_blank" rel="noopener noreferrer" class="social" aria-label="Spotify" style="width:44px; height:44px; display:inline-flex; align-items:center; justify-content:center; border:1px solid rgba(242,242,240,0.35);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.6 14.4a.62.62 0 01-.86.21c-2.35-1.44-5.3-1.76-8.79-.96a.62.62 0 11-.28-1.21c3.82-.87 7.09-.5 9.72 1.1.3.18.39.57.21.86zm1.23-2.74a.78.78 0 01-1.07.26c-2.69-1.65-6.79-2.13-9.97-1.17a.78.78 0 11-.45-1.49c3.63-1.1 8.15-.56 11.23 1.33.37.22.49.7.26 1.07zm.1-2.85C14.81 8.96 9.4 8.79 6.32 9.72a.93.93 0 11-.54-1.79c3.54-1.07 9.51-.87 13.26 1.36a.93.93 0 11-.95 1.6z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/maiu.xi/" target="_blank" rel="noopener noreferrer" class="social" aria-label="Instagram" style="width:44px; height:44px; display:inline-flex; align-items:center; justify-content:center; border:1px solid rgba(242,242,240,0.35);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+    <p style="max-width:1440px; margin:36px auto 0; font-size:12px; letter-spacing:1px; color:rgba(242,242,240,0.4);">©2026 Maiumixmaster — Dance Music Specialist</p>
+  </footer>
+
+</div>
+</body>
+</html>
